@@ -1,29 +1,22 @@
 "use strict"; // treat all JS code as newer version
-
-// alert( 3 + 3) // we are using nodejs, not browser
-
-console.log(3 
-    +
-     3) // code readability should be high
-
-console.log("Hitesh")
+"use strict";  //treat all codes as new version of javascript
+//but you can even bot use bcoz automatically in strict mode js runs
+// alert(3+3)// this is giving error bcoz  we are using js not browser  in browser it works 
+console.log(3+3)
 
 
-let name = "hitesh"
-let age = 18
-let isLoggedIn = false
-let state;
+let name="priya"//string. in "" always 
+let aga=2//int.    range 2 to the power 53
+//for big number here is big int
+let check=true//bool
 
-// number => 2 to power 53
-// bigint
-// string => ""
-// boolean => true/false
-// null => standalone value
-// undefined => 
-// symbol => unique
+//null =>is a data type but also a standalone value   is ek type ki value h jise aap assing bhi kr skte h
 
-
-// object
+//undefined=> means aapne value assign ni ki but var define krlia
+//symbol=>for uniqueness
 
 console.log(typeof undefined); // undefined
-console.log(typeof null); // object
+console.log(typeof null); // object    
+
+
+
