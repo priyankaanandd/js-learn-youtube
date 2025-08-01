@@ -76,4 +76,4 @@ console.log(func2(1,2))//{ username: 'ritesh' }
 
 
 const arr=[2,3,2,5]
-arr.forEach(=()=>)
+
