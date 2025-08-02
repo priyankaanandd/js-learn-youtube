@@ -1,39 +1,70 @@
-const coding = ["js", "ruby", "java", "python", "cpp"]
+const arr=["cpp","js","java"]
+//arr.forEach((items_in_arr,index,array){})
 
-// coding.forEach( function (val){
-//     console.log(val);
+//for each hmesha ek call back function mangta h toh write that func without writing its name and in paramenter write anything bcoz by def that parameter with iterate over array bcoz of for each func
+// arr.forEach( function (item){
+//     console.log(item)
+//     //cpp
+//     //js
+//     //java
 // } )
 
-// coding.forEach( (item) => {
-//     console.log(item);
-// } )
 
-// function printMe(item){
-//     console.log(item);
+
+
+// arr.forEach((value)=>{
+//     console.log(value)
+//     //cpp
+//     //js
+//     //java
+// })
+
+
+
+// function func(val){
+//     console.log(val)
 // }
 
-// coding.forEach(printMe)
+// arr.forEach(func)
+//cpp
+//js
+//java
 
-// coding.forEach( (item, index, arr)=> {
-//     console.log(item, index, arr);
-// } )
 
-const myCoding = [
+
+
+// arr.forEach((item,index,a)=>{
+//     console.log(index)
+//     //0
+//     //1
+//     //2
+//     console.log(a)
+//     //['cpp','js','java']
+// })
+
+
+
+
+
+const obj=[
     {
-        languageName: "javascript",
-        languageFileName: "js"
+        name:"a",
+        age:21
     },
     {
-        languageName: "java",
-        languageFileName: "java"
-    },
-    {
-        languageName: "python",
-        languageFileName: "py"
-    },
+        name:"pia",
+        age:22
+    }
 ]
 
-myCoding.forEach( (item) => {
-    
-    console.log(item.languageName);
-} )
+
+obj.forEach((item)=>{
+    //console.log(item.name)
+    //a
+    //pia
+    console.log(item)
+    //{ name: 'a', age: 21 }
+    //{ name: 'pia', age: 22 }
+})
+
+
