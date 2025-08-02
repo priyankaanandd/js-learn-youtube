@@ -7,23 +7,25 @@
 //         break;
 // }
 
-const month = "march"
+const month = "or"
 
-switch (month) {
+//key is the value jise hr baar check krbi h 
+switch(month){
     case "jan":
-        console.log("January");
+        console.log("jan")
         break;
     case "feb":
-        console.log("feb");
+        console.log("feb")
+        break;
+    case "october":
+        console.log("oct")
         break;
     case "march":
-        console.log("march");
+        console.log("march")
         break;
-    case "april":
-        console.log("april");
-        break;
-
-    default:
-        console.log("default case match");
+    default :
+        console.log("no match")
         break;
 }
+
+//in switch case there is a problem that jahan bhi key match hojae uska baad ka saara code exec ho jaata h so we need a break statement except default

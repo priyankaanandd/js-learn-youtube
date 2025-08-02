@@ -1,43 +1,91 @@
-const userEmail = []
+//there are certain values who are assumed the be true or false called truthy or falsy values 
 
-if (userEmail) {
-    console.log("Got user email");
-} else {
-    console.log("Don't have user email");
-}
+// const name=""
 
-// falsy values
+// if(name){
+//     console.log("got user email")
+// }
+// else{
+//     console.log("dont have euser email")
+// }
+//dont have user email
 
-// false, 0, -0, BigInt 0n, "", null, undefined, NaN
 
-//truthy values
-// "0", 'false', " ", [], {}, function(){}
+// const name1=[]
 
-// if (userEmail.length === 0) {
-//     console.log("Array is empty");
+// if(name1){
+//     console.log("got user email")
+// }
+// else{
+//     console.log("dont have euser email")
+// }
+//got user email
+
+
+//in emeprt string go no email
+//in empty array got user email
+
+
+//FALSY VALUE
+//false,0,-0,BigInt,0n,"",null,undefined,Nan
+
+
+//TRUTHY VALUE
+//"0",'false'," ",[],{},function(){}
+
+
+
+
+
+// const arr=[];
+// if(arr.length==0){
+//     console.log("empty")//empty 
 // }
 
-const emptyObj = {}
 
-if (Object.keys(emptyObj).length === 0) {
-    console.log("Object is empty");
-}
 
-// Nullish Coalescing Operator (??): null undefined
+
+// const obj={}
+// if(Object.keys(obj).length==0){
+//     console.log("obj is empty")//obj is empty
+// }
+
+
+
+
+//Nullish coalescing operator(??)
+//works for null undefined
 
 let val1;
-// val1 = 5 ?? 10
-// val1 = null ?? 10
-// val1 = undefined ?? 15
-val1 = null ?? 10 ?? 20
+//val1=5??10
+//console.log(val1)//5
+
+//val1=null??10
+//console.log(val1)//10
+
+
+// val1=undefined??10
+// console.log(val1)//10
+
+
+val1=null??null??5
+console.log(val1)//5
 
 
 
-console.log(val1);
 
-// Terniary Operator
+//TERNARY OPERATOR
+//condition?true:false
 
-// condition ? true : false
 
-const iceTeaPrice = 100
-iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
+const ice=100
+ice>=100?console.log("true"):console.log("false");
+//true 
+
+
+
+
+
+ 
+
+
