@@ -2,38 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM | Chai aur code</title>
+    <title>Do, chai aur code</title>
 </head>
-<body style="background-color: #212121; color: #fff;">
-    <div class="parent">
-        <!-- this is a comment -->
-        <div class="day">Monday</div>
-        <div class="day">Tuesday</div>
-        <div class="day">Wednesday</div>
-        <div class="day">Thursday</div>
-    </div>
+<body style="background-color: black; color: blue;">
+   <div class="parent">
+    <div class="day">Monday</div>
+    <div class="day">Tue</div>
+    <div class="day">Wed</div>
+    <div class="day">THur</div>
+    <div class="day">Fri</div>
+    <div class="day">Sat</div>
+   
+   </div> 
+
+   <script>
+  const parent= document.querySelector('.parent')
+//    console.log(parent)
+//    console.log(parent.children)
+//ye html collection return krta h jo array type hota h
+
+//console.log(parent.children[1].innerHTML)//tue
+
+// for(let i=0;i<parent.children.length;i++){
+//     console.log(parent.children[i].innerHTML)}
+//      Tue (dom.html, line 25)
+//  Monday (dom.html, line 28)
+//  Tue (dom.html, line 28)
+//  Wed (dom.html, line 28)
+//  THur (dom.html, line 28)
+//  Fri (dom.html, line 28)
+//  Sat (dom.html, line 28)
+
+
+
+//parent.childeren[1].style.color="red"
+// console.log(parent.firstElementChild)//mon
+
+// console.log(parent.lastElementChild)//sat
+
+// const dayone=document.querySelector('.day')
+// console.log(dayone)
+// <div class="day">Monday</div>
+
+
+// console.log(dayone.nextElementSibling)
+// <div class="day">TUesday</div>
+
+console.log("Nodes:",parent.childNodes)
+//returns a node list which is a complex tree struvture
+
+   </script>
 </body>
-<script>
-    const parent = document.querySelector('.parent')
-    // console.log(parent);
-    // console.log(parent.children);
-    // console.log(parent.children[1].innerHTML);
-
-    // for (let i = 0; i < parent.children.length; i++) {
-    //      console.log(parent.children[i].innerHTML);
-        
-    // }
-    parent.children[1].style.color = "orange"
-    // console.log(parent.firstElementChild);
-    // console.log(parent.lastElementChild);
-
-    const dayOne = document.querySelector('.day')
-    // console.log(dayOne);
-    // console.log(dayOne.parentElement);
-    // console.log(dayOne.nextElementSibling);
-
-    console.log("NODES: ", parent.childNodes);
-</script>
 </html>
